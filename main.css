@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Roboto:wght@300;400;500;700&family=Titillium+Web:ital,wght@0,300;0,400;1,600;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+    background-image: url(./img/countdown.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.countdown-container {
+    display: flex;
+
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    color: #fff;
+    margin-top: 32rem;
+}
+
+.big-test {
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    margin: 0 2rem;
+
+}
+.countdown-el{
+    color: #fff;
+    text-align: center;
+}
+
+.countdown-el span{
+    font-size: 1.3rem;
+    
+}
